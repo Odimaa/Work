@@ -5,7 +5,7 @@
         <div class="col-lg-6 mt-5">
           <div class="text mt-5">
             <h3>Hello, I'm</h3>
-            <h1><span class="line">Odi</span>maa Allen</h1>
+            <h1>Odimaa Allen</h1>
             <h1>Frontend Developer</h1>
           </div>
         </div>
