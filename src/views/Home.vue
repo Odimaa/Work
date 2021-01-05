@@ -6,6 +6,8 @@
           <div class="text mt-5">
             <h3>Hello, I'm</h3>
             <h1>Odimaa Allen</h1>
+            <br />
+            <br />
             <h1>Frontend Developer</h1>
           </div>
         </div>
@@ -163,52 +165,60 @@ https://noirodi.netlify.app/"
           </div>
           <div class="col-lg-12">
             <div class="cards">
-              <div class="card card3">
-                <div class="container">
-                  <img src="images/job.jpg" />
+              <div class="row">
+                <div class="col-sm-12 col-lg-4 pt-4">
+                  <div class="card card3">
+                    <div class="container">
+                      <img src="images/job.jpg" />
+                    </div>
+                    <div class="details">
+                      <h3>Job Board</h3>
+                      <p>Type: Application</p>
+                      <p>Reactjs</p>
+                      <a
+                        href="https://odi-react-job.netlify.app"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >View project &rarr;</a
+                      >
+                    </div>
+                  </div>
                 </div>
-                <div class="details">
-                  <h3>Job Board</h3>
-                  <p>Type: Application</p>
-                  <p>Reactjs</p>
-                  <a
-                    href="https://odi-react-job.netlify.app"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View project &rarr;</a
-                  >
+                <div class="col-sm-12 col-lg-4 pt-4">
+                  <div class="card card1">
+                    <div class="container">
+                      <img src="images/noir.jpg" />
+                    </div>
+                    <div class="details">
+                      <h3>Digital Agency</h3>
+                      <p>Type: Landing page</p>
+                      <p>Html, CSS, Javascript</p>
+                      <a
+                        href="https://p3solutions.netlify.app/"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >View project &rarr;</a
+                      >
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="card card1">
-                <div class="container">
-                  <img src="images/noir.jpg" />
-                </div>
-                <div class="details">
-                  <h3>Digital Agency</h3>
-                  <p>Type: Landing page</p>
-                  <p>Html, CSS, Javascript</p>
-                  <a
-                    href="https://p3solutions.netlify.app/"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View project &rarr;</a
-                  >
-                </div>
-              </div>
-              <div class="card card2">
-                <div class="container">
-                  <img src="images/bakery.jpg" />
-                </div>
-                <div class="details">
-                  <h3>Bakery</h3>
-                  <p>Type: Landing page</p>
-                  <p>HTML, CSS , Javascript</p>
-                  <a
-                    href="https://scarlett-confectionary.netlify.app/"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View project &rarr;</a
-                  >
+                <div class="col-sm-12 col-lg-4 pt-4">
+                  <div class="card card2">
+                    <div class="container">
+                      <img src="images/bakery.jpg" />
+                    </div>
+                    <div class="details">
+                      <h3>Bakery</h3>
+                      <p>Type: Landing page</p>
+                      <p>HTML, CSS , Javascript</p>
+                      <a
+                        href="https://scarlett-confectionary.netlify.app/"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >View project &rarr;</a
+                      >
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
