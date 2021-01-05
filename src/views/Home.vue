@@ -273,7 +273,7 @@ export default {};
 * {
   margin: 0;
   overflow: hidden;
-  padding: 0x;
+  padding: 0;
 }
 
 .text {
@@ -497,7 +497,7 @@ h4.bg-heading2 {
   border-bottom: 10px solid #86c232;
 }
 .contain-shape1 {
-  padding: 60px;
+  padding: 100px;
   position: relative;
   background-color: #ffffff;
   min-height: 100vh;
@@ -541,8 +541,8 @@ h4.bg-heading2 {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding: 6px;
-  grid-gap: 20px;
+  padding: 20px;
+  grid-gap: 40px;
 }
 .card {
   background-color: #1c1b29;
