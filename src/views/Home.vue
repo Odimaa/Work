@@ -6,8 +6,6 @@
           <div class="text mt-5">
             <h3>Hello, I'm</h3>
             <h1>Odimaa Allen</h1>
-            <br />
-            <br />
             <h1>Frontend Developer</h1>
           </div>
         </div>
@@ -272,6 +270,7 @@ export default {};
 <style scoped>
 * {
   margin: 0;
+  overflow: hidden;
   padding: 0;
 }
 
@@ -555,7 +554,7 @@ h4.bg-heading2 {
 .card img {
   width: 100%;
   display: block;
-  border-radius: 20px 20px 0 0;
+  /* border-radius: 20px 20px 0 0; */
 }
 .container:after {
   content: "";
@@ -564,7 +563,7 @@ h4.bg-heading2 {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 20px 20px 0 0;
+  /* border-radius: 20px 20px 0 0; */
   opacity: 0.7;
 }
 .card1 > .container:after {
