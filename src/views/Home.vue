@@ -6,6 +6,8 @@
           <div class="text mt-5">
             <h3>Hello, I'm</h3>
             <h1>Odimaa Allen</h1>
+            <br />
+            <br />
             <h1>Frontend Developer</h1>
           </div>
         </div>
@@ -271,7 +273,7 @@ export default {};
 * {
   margin: 0;
   overflow: hidden;
-  padding: 0;
+  padding: 0x;
 }
 
 .text {
@@ -495,7 +497,7 @@ h4.bg-heading2 {
   border-bottom: 10px solid #86c232;
 }
 .contain-shape1 {
-  padding: 100px;
+  padding: 60px;
   position: relative;
   background-color: #ffffff;
   min-height: 100vh;
@@ -539,8 +541,8 @@ h4.bg-heading2 {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding: 20px;
-  grid-gap: 40px;
+  padding: 6px;
+  grid-gap: 20px;
 }
 .card {
   background-color: #1c1b29;
