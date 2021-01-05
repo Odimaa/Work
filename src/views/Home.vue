@@ -223,7 +223,7 @@ https://noirodi.netlify.app/"
           <p style="color: #fff">Get in Touch</p>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -233,8 +233,8 @@ https://noirodi.netlify.app/"
               <p class="description">Lagos, Nigeria</p>
             </div>
           </div>
-
-          <div class="col-lg-4">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -244,8 +244,9 @@ https://noirodi.netlify.app/"
               <p class="description">Odimaa.horsfall@gmail.com</p>
             </div>
           </div>
+          <div class="col-lg-1"></div>
 
-          <div class="col-lg-4">
+          <div class="tcol-lg-3">
             <div class="icon-box">
               <div class="icon">
                 <img
