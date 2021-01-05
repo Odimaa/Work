@@ -62,13 +62,13 @@
         <p>What I Do</p>
       </div>
 
-      <div class="container py-5">
-        <div class="row align-items-center py-5">
-          <div class="col-md-12 col-lg-4">
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-lg-4">
             <h2 class="mb-4 weight-600">My Services</h2>
             <p class="text-muted mb-5">Road to Fullstack Development</p>
           </div>
-          <div class="col-md-12 col-lg-8">
+          <div class="col-lg-8">
             <div class="row">
               <div class="col-6">
                 <div class="bg-new p-5 text-white">
@@ -223,7 +223,7 @@ https://noirodi.netlify.app/"
           <p style="color: #fff">Get in Touch</p>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-lg-4">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -234,7 +234,7 @@ https://noirodi.netlify.app/"
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
+          <div class="col-lg-4">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -245,7 +245,7 @@ https://noirodi.netlify.app/"
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
+          <div class="col-lg-4">
             <div class="icon-box">
               <div class="icon">
                 <img
