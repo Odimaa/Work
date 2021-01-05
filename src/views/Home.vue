@@ -223,7 +223,7 @@ https://noirodi.netlify.app/"
           <p style="color: #fff">Get in Touch</p>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-3">
+          <div class="col-lg-5">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -233,8 +233,8 @@ https://noirodi.netlify.app/"
               <p class="description">Lagos, Nigeria</p>
             </div>
           </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-3">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
             <div class="icon-box">
               <div class="icon">
                 <img
@@ -245,17 +245,6 @@ https://noirodi.netlify.app/"
             </div>
           </div>
           <div class="col-lg-1"></div>
-
-          <div class="tcol-lg-3">
-            <div class="icon-box">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/doodle/96/000000/phone--v1.png"
-                />
-              </div>
-              <p class="description">+234 815 931 9442</p>
-            </div>
-          </div>
         </div>
       </div>
       <div class="custom-shape-divider-top-1609846653">
