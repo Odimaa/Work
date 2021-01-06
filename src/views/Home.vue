@@ -8,7 +8,7 @@
             <h1 style="font-size: 40px">Odimaa Allen</h1>
             <br />
             <br />
-            <h1 style="font-size: 50px">Frontend Developer</h1>
+            <h1 style="font-size: 30px">Frontend Developer</h1>
           </div>
         </div>
         <div class="col-lg-5" id="portfolio-img">
