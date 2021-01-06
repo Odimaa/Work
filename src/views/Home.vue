@@ -2,16 +2,16 @@
   <div class="home">
     <section class="contain-shape1" id="hero">
       <div class="row">
-        <div class="col-lg-6 mt-5">
+        <div class="col-lg-7 mt-5">
           <div class="text mt-5">
             <h3>Hello, I'm</h3>
-            <h1>Odimaa Allen</h1>
+            <h1 style="font-size: 40px">Odimaa Allen</h1>
             <br />
             <br />
-            <h1>Frontend Developer</h1>
+            <h1 style="font-size: 50px">Frontend Developer</h1>
           </div>
         </div>
-        <div class="col-lg-6" id="portfolio-img">
+        <div class="col-lg-5" id="portfolio-img">
           <img src="images/portfolio.svg" />
         </div>
       </div>
@@ -103,7 +103,7 @@
         </div>
       </div>
     </section>
-
+    <!-- 
     <section class="contain-shape5" id="about">
       <div class="section-title">
         <h2>Portfolio</h2>
@@ -217,9 +217,126 @@ https://noirodi.netlify.app/"
           </div>
         </div>
       </div>
+    </section> -->
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>Recent Projects</p>
+    </div>
+    <section class="card-list mb-5">
+      <article class="card" style="background-image: url(/images/consult.jpg)">
+        <header class="card-header">
+          <p>Consulting Company</p>
+        </header>
+
+        <a
+          href="https://cushion-cloud.netlify.app/"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+
+        <div class="tags">
+          <a href="#">html</a>
+          <a href="#">css</a>
+          <a href="#">javascript</a>
+
+          <a href="#">Javascript</a>
+        </div>
+      </article>
+
+      <article class="card" style="background-image: url(/images/bakery.jpg)">
+        <header class="card-header">
+          <p>Bakery Website</p>
+        </header>
+        <a
+          href="https://scarlett-confectionary.netlify.app/"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+        <div class="tags">
+          <a href="#">html</a>
+          <a href="#">css</a>
+          <a href="#">bootstrap</a>
+
+          <a href="#">Javascript</a>
+        </div>
+      </article>
+
+      <article class="card" style="background-image: url(/images/noir.jpg)">
+        <header class="card-header">
+          <p>Digital agency</p>
+        </header>
+        <a
+          href="https://p3solutions.netlify.app/"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+        <div class="tags">
+          <a href="#">html</a>
+          <a href="#">css</a>
+          <a href="#">javascript</a>
+          <a href="#">bootstrap</a>
+        </div>
+      </article>
+
+      <article class="card" style="background-image: url(/images/job.jpg)">
+        <header class="card-header">
+          <p>Job Board</p>
+          <h2>Application</h2>
+        </header>
+        <a
+          href="https://odi-react-job.netlify.app"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+        <div class="tags">
+          <a href="#">react</a>
+          <a href="#">tailwind</a>
+        </div>
+      </article>
+
+      <article class="card" style="background-image: url(/images/scarlett.jpg)">
+        <header class="card-header">
+          <h2>Recipe retrieval</h2>
+        </header>
+        <a
+          href="https://allrecipesodimaa.netlify.app"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+        <div class="tags">
+          <a href="#">react</a>
+          <a href="#">Bootstrap</a>
+        </div>
+      </article>
+
+      <article
+        class="card"
+        style="background-image: url(/images/restaurant.jpg)"
+      >
+        <header class="card-header">
+          <h2>Retaurant</h2>
+        </header>
+        <a
+          href="
+https://noirodi.netlify.app/"
+          class="btn btn-primary"
+          target="_blank"
+          >View project &rarr;</a
+        >
+        <div class="tags">
+          <a href="#">html</a>
+          <a href="#">css</a>
+          <a href="#">flexbox</a>
+        </div>
+      </article>
     </section>
 
-    <section class="contain-shape6" id="get-in">
+    <section class="contain-shape6 mt-5" id="get-in">
       <div class="contact-me">
         <div class="section-title">
           <p style="color: #fff">Get in Touch</p>
@@ -296,7 +413,7 @@ export default {};
 }
 
 #portfolio-img img {
-  width: 560px;
+  width: 460px;
   height: 560px;
 }
 
@@ -538,59 +655,156 @@ h4.bg-heading2 {
   min-height: 90vh;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding: 20px;
-  grid-gap: 40px;
+.card-list {
+  display: flex;
+  padding: 5rem;
+  overflow-x: scroll;
 }
-.card {
-  background-color: #1c1b29;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+
+.card-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
-.container {
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+.card-list::-webkit-scrollbar-thumb {
+  background: #1e2528;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
+
+.card-list::-webkit-scrollbar-track {
+  background: #fff;
+}
+
 .card img {
-  width: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #17141d;
+  box-shadow: -1rem 0 1rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}
+
+.card:focus-within ~ .card,
+.card:hover ~ .card {
+  transform: translateX(130px);
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card:not(:first-child) {
+  margin-left: -130px;
+}
+
+.card-header {
+  margin-bottom: auto;
+}
+
+.card-header p {
+  font-size: 14px;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  margin: 0.25rem 0 auto;
+  text-decoration: none;
+  color: #fff;
+  border: 0;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card-header h2:hover {
+  /* background: linear-gradient(90deg, #ff8a00, #e52e71); */
+  background-color: #6264fa;
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.card-author {
+  margin: 3rem 0 0;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.author-avatar {
+  grid-area: auto;
+  align-self: start;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.author-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  filter: grayscale(100%);
   display: block;
-  /* border-radius: 20px 20px 0 0; */
+  overflow: hidden;
+  margin: 16px 10px;
 }
-.container:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* border-radius: 20px 20px 0 0; */
-  opacity: 0.7;
+
+.author-name {
+  grid-area: auto;
+  box-sizing: border-box;
 }
-.card1 > .container:after {
-  background-image: linear-gradient(135deg, #41b3a3, #c38d9e);
+
+.author-name-prefix {
+  font-style: normal;
+  font-weight: 700;
+  color: #7a7a8c;
 }
-.card2 > .container:after {
-  background-image: linear-gradient(135deg, #2f2fa2, #f64c72);
+
+.tags {
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 0 1rem;
+  line-height: 2;
+  margin-bottom: 0;
 }
-.card3 > .container:after {
-  background-image: linear-gradient(135deg, #3500d3, #0c0032);
+
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
 }
-.details {
-  padding: 20px 10px;
-}
-.details > h3 {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 10px 0 15px 0;
-}
-.details > p {
-  color: #a0a0a0;
-  font-size: 15px;
-  line-height: 30px;
-  font-weight: 400;
+
+.tags a:hover {
+  background-color: #6264fa;
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  background-clip: text;
+  border-color: white;
 }
 
 @media only screen and (max-width: 600px) {
