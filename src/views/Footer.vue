@@ -1,164 +1,21 @@
 <template>
-  <div class="home py-5">
-    <section id="parallax">
-      <div class="container">
-        <div class="row" style="height: 800px">
-          <div class="col-12 d-flex align-items-center">
-            <div class="text-center w-100">
-              <div class="tt mb-4"><img src="images/potrait.png" /></div>
-              <h1 class="display-5 weight-600">Hi, I'm Odimaa Allen</h1>
-              <h6 class="mb-4">FullStack Developer</h6>
-
-              <a href="images/CV.pdf" class="btn btn-primary mt-5"
-                >Download CV &rarr;</a
-              >
-            </div>
+  <div id="contact py-5" style="background-image: url('/images/body.jpg')">
+    <div class="container pb-5">
+      <div class="row py-5">
+        <div class="col-lg-5 col-12 mx-auto text-center">
+          <h2 class="h1 font-weight-bold mb-3">Contact Me</h2>
+          <p class="lead">I'm eager to hear from you! I'm available for work</p>
+          <div class="d-flex justify-content-around ll mt-5">
+            <a href="https://github.com/Odimaa"
+              ><i class="lni lni-github-original"></i
+            ></a>
+            <a href="http://www.linkedin.com/in/odimaa-allen-horsfall-914171131"
+              ><i class="lni lni-linkedin-original"></i
+            ></a>
           </div>
         </div>
       </div>
-    </section>
-    <div class="bg-new-3 py-5">
-      <div class="container py-5">
-        <h2 class="h1 font-weight-bold mb-3 text-center">Skillset</h2>
-
-        <div class="row align-items-center py-5">
-          <div class="col-md-12 col-lg-4">
-            <div class="bb shadow-sm"><i class="lni lni-code"></i></div>
-            <div class="p-5 shadow-sm border-radius-new bg-white">
-              <h4 class="font-weight-bold mb-3">Web Development</h4>
-              <p class="m-0"></p>
-            </div>
-          </div>
-          <div class="col-md-12 col-lg-8">
-            <div class="row">
-              <div class="col-6">
-                <div class="bg-new p-5 text-white">
-                  <h4 class="bg-heading">#Development</h4>
-                  <ul class="list-unstyled uu">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                  </ul>
-                  <br />
-                  <h4 class="bg-heading">#Frameworks</h4>
-                  <ul class="list-unstyled uu">
-                    <li>Vue.js</li>
-                    <li>React</li>
-                    <li>Laravel</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="bg-new-2 p-5 text-white">
-                  <h4 class="bg-heading2">#Dev Tools</h4>
-                  <ul class="list-unstyled uu">
-                    <li>Visual Studio Code</li>
-                    <li>Bootstrap</li>
-                    <li>Tailwind</li>
-                    <li>Figma</li>
-
-                    <li>Eclipse</li>
-                    <li>Github</li>
-                    <li>Gitlab</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="section site-portfolio">
-        <h2 class="h1 font-weight-bold mb-3 mt-3 text-center">Portfolio</h2>
-
-        <div class="container">
-          <div class="row mb-5 align-items-center">
-            <div
-              class="col-md-12 col-lg-6 mb-4 mb-lg-0"
-              data-aos="fade-up"
-            ></div>
-            <div
-              class="col-md-12 col-lg-6 text-left text-lg-right"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <!-- <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Web</a>
-              <a href="#" data-filter=".design">Design</a>
-              <a href="#" data-filter=".branding">Branding</a>
-              <a href="#" data-filter=".photography">Photography</a>
-            </div> -->
-            </div>
-          </div>
-          <div
-            id="portfolio-grid"
-            class="row no-gutter"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/cushion" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Consulatation Company</h3>
-                  <span>Landing page</span>
-                </div>
-                <img class="img-fluid" src="images/consult.jpg" />
-              </router-link>
-            </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Digital" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Digital Agency</h3>
-                  <span>Landing page</span>
-                </div>
-                <img class="img-fluid" src="images/noir.jpg" />
-              </router-link>
-            </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Restaurant" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Restaurant</h3>
-                  <span>Home</span>
-                </div>
-                <img class="img-fluid" src="images/restaurant.jpg" />
-              </router-link>
-            </div>
-            <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Airlines" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Bayelsa Airline</h3>
-                  <span>Home</span>
-                </div>
-                <img class="img-fluid" src="images/airport.jpg" />
-              </router-link>
-            </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Recipe" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Recipe retrieval</h3>
-                  <span>App</span>
-                </div>
-                <img class="img-fluid" src="images/recipes.jpg" />
-              </router-link>
-            </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Job" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Job website</h3>
-                  <span>App</span>
-                </div>
-                <img class="img-fluid" src="images/job.jpg" />
-              </router-link>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
-
-    <!-- End  Works Section -->
   </div>
 </template>
 
