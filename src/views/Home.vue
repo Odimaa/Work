@@ -129,10 +129,10 @@
             <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
               <router-link to="/Airlines" class="item-wrap fancybox">
                 <div class="work-info">
-                  <h3>Bayelsa Airline</h3>
+                  <h3>CovidCare</h3>
                   <span>Home</span>
                 </div>
-                <img class="img-fluid" src="images/airport.jpg" />
+                <img class="img-fluid" src="images/health.jpg" />
               </router-link>
             </div>
             <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
