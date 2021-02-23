@@ -127,7 +127,7 @@
               </router-link>
             </div>
             <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-              <router-link to="/Airlines" class="item-wrap fancybox">
+              <router-link to="/CovidCare" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>CovidCare</h3>
                   <span>Home</span>
