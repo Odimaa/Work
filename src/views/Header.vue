@@ -13,23 +13,6 @@
             ><a href="#"> ALLEN</a></router-link
           >
         </b-navbar-brand>
-
-        <b-navbar-toggle @click="openNav()"></b-navbar-toggle>
-
-        <b-collapse id="nav-collapse" is-nav>
-          <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <b-navbar-nav>
-              <a
-                href="http://www.linkedin.com/in/odimaa-allen-horsfall-914171131"
-                class="btn btn-primary mt-5"
-                >Hire Me &rarr;</a
-              >
-
-              <!-- <b-nav-item href="#" class="download-btn">GET STARTED</b-nav-item> -->
-            </b-navbar-nav>
-          </b-navbar-nav>
-        </b-collapse>
       </b-navbar>
     </div>
 
